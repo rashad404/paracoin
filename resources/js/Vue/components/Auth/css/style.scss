@@ -1,0 +1,147 @@
+body{
+    background-color: #F4F4F8!important;
+}
+
+div.left-sidebar{
+    color: #fff;
+    background-image: linear-gradient(to bottom, #14AEED , #AEE7FF);
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 20%;
+
+    img{
+        width: 150px;
+    }
+
+    div.slogan{
+        margin-top: 150px;
+
+        h6{
+            margin-top: 20px;
+            font-weight: 100;
+            font-size: 14px;
+        }
+    }
+    div.elements{
+        position: fixed;
+        bottom:30px;
+        left:0;
+    }
+}
+
+div.right-sidebar{
+    margin: 70px auto;
+    max-width: 500px;
+
+    div.back{
+        margin-bottom: 50px;
+        font-size: 14px;
+        a{
+            color: #212529;
+        }
+        i{
+            background-color: #D5DFEF;
+            padding: 6px 10px;
+            border-radius: 5px;
+            font-size: 10px;
+            margin-right: 8px;
+        }
+    }
+    h2{
+        font-size: 42px;
+    }
+    h6 {
+        margin-top: 20px;
+        font-weight: 100;
+    }
+
+    div.form{
+        margin-top: 40px;
+
+        div.form-group{
+            position: relative;
+        }
+        input,textarea{
+            font-size: 14px;
+            padding: 30px 20px;
+            border: 1px solid #E9E9E9;
+            border-radius: 5px;
+            max-width: 460px;
+            margin-bottom: 25px;
+        }
+        .floating-label {
+            position: absolute;
+            pointer-events: none;
+            left: 20px;
+            top: 22px;
+            transition: 0.2s ease all;
+            color: #6c7781;
+            font-size: 14px;
+        }
+
+        input:focus ~ .floating-label,
+        input:not(:placeholder-shown) ~ .floating-label{
+            top: 8px;
+            bottom: 10px;
+            left: 20px;
+            font-size: 11px;
+            opacity: 1;
+            color: #54a1d1;
+        }
+        input:focus ,
+        input:not(:focus):valid,
+        input:not(:placeholder-shown){
+            padding: 40px 20px 20px 20px!important;
+        }
+
+        button.btn{
+            background-color: #14AEED;
+            border-radius: 5px;
+            color: #fff;
+            padding: 18px;
+            width: 100%;
+            max-width: 460px;
+            text-align:center;
+        }
+        button.btn:hover{
+            background-color: #1195cb;
+        }
+    }
+
+    div.forgot-password{
+        margin-top: 80px;
+        a{
+            color: #272848;
+            text-decoration: underline;
+            font-size: 14px;
+            font-weight: 100;
+        }
+        a:hover{
+            color: #1195cb;
+        }
+    }
+    div.register{
+        margin-top: 30px;
+        font-weight: 100;
+        font-size: 14px;
+        a{
+            color: #272848;
+            text-decoration: underline;
+            margin-left: 10px;
+        }
+        a:hover{
+            color: #1195cb;
+        }
+    }
+}
+
+.noPadding{
+    padding-left:0;
+    padding-right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+}

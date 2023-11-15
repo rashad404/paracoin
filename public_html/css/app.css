@@ -1,0 +1,625 @@
+body {
+  background-color: #f6f5f7;
+  font-size: 16px;
+  font-family: Inter;
+  line-height: 1.25rem;
+  font-weight: 300;
+}
+
+a {
+  color: #2b0213;
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+input[type=submit] {
+  padding: 10px 100px !important;
+}
+
+.btn-primary {
+  background-color: rgb(64, 57, 151);
+  border-color: rgb(64, 57, 151);
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: rgb(52, 49, 116);
+  border-color: rgb(52, 49, 116);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+  background-color: rgb(144, 162, 244) !important;
+  border-color: rgb(144, 162, 244) !important;
+}
+
+.btn-primary:hover,
+.btn-outline-secondary:focus {
+  box-shadow: none !important;
+}
+
+div.main {
+  border: 1px solid #d7d7d7;
+  line-height: 26px;
+}
+
+div.header {
+  padding: 10px 0 0 10px;
+}
+
+div.header img {
+  width: 150px;
+}
+
+div.footer {
+  padding: 10px;
+  background-color: #039486;
+  color: #fff;
+  text-align: center;
+}
+
+div.footer a {
+  color: #fff;
+}
+
+h1.heading {
+  background-color: #b02323;
+  color: #ffdbdb;
+  text-align: center;
+  margin: 0;
+  padding: 4px;
+  font-size: 20px;
+}
+
+div.header_alt {
+  padding: 5px 5px 5px 5px;
+}
+
+div.header_alt a {
+  font-weight: bold;
+}
+
+section.games-section div.league_name {
+  background-color: #039486;
+  padding-left: 10px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+  color: #fff;
+}
+
+section.games-section div:not(.league_name):nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+
+section.games-section div:not(.league_name) {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+section.games-section span.game_time {
+  padding-left: 5px;
+  color: #909090;
+}
+
+section.games-section a {
+  color: red;
+  font-weight: bold;
+}
+
+section.games-section span.game-time-live {
+  padding-left: 5px;
+  color: red;
+}
+
+section.games-section span.game-time-finished {
+  padding-left: 5px;
+  color: green;
+}
+
+section.games-section span.game-time-ht {
+  padding-left: 5px;
+  color: #b100c2;
+}
+
+section.games-section .blink {
+  color: #fff;
+  -webkit-animation: blink 800ms step-end infinite;
+  animation: blink 800ms step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    color: red;
+  }
+}
+
+@keyframes blink {
+  50% {
+    color: red;
+  }
+}
+
+span.yellow-card {
+  background-color: yellow;
+  color: #000;
+  padding: 1px 2px 0px 2px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 3px;
+  border: 1px solid #c1c100;
+}
+
+span.red-card {
+  background-color: red;
+  color: #fff;
+  padding: 1px 2px 0px 2px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 3px;
+  border: 1px solid #960000;
+}
+
+section.game-info-section h2 {
+  font-size: 22px;
+}
+
+section.game-info-section img.game_info_team {
+  width: 100px;
+}
+
+section.game-info-section .score {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+section.game-info-section a.game_info_tab {
+  background-color: #039486;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 3px 0;
+}
+
+section.game-info-section table.game_info_stats {
+  width: 100%;
+}
+
+section.game-info-section table.game_info_stats td {
+  width: 33%;
+  text-align: center;
+}
+
+section.coin-section {
+  padding: 10px 30px;
+}
+
+section.coin-section h1.page-title {
+  font-size: 36px;
+  border-left: 6px solid rgb(64, 57, 151);
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+section.coin-section .coin-symbol {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+section.coin-section div.current-price {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+section.coin-section span.amount {
+  font-weight: bold;
+  font-size: 24px;
+  color: #403997;
+}
+
+section.coin-section div.box-container {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+section.coin-section div.box-container h2 {
+  margin-bottom: 15px;
+  color: rgb(17, 23, 36);
+  font-size: 36px;
+}
+
+section.coin-section div.box-container div.inner-box {
+  margin-bottom: 40px;
+  color: rgb(96, 104, 119);
+}
+
+section.coin-section div.stats_box {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section.coin-section div.stats_box div.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2a354f;
+}
+
+section.coin-section div.stats_box div.text {
+  color: #506690;
+  font-size: 14px;
+}
+
+section.buy-section .amount {
+  font-weight: bold;
+  font-size: 24px;
+  color: #403997;
+}
+
+section.header {
+  margin-left: 250px;
+}
+
+section.header div.logo {
+  background-color: rgb(64, 57, 151);
+  border-bottom: 1px solid rgb(144, 162, 244);
+  padding-top: 8px;
+  text-align: center;
+}
+
+section.header div.logo div.logo-icon {
+  padding-left: 20px;
+}
+
+section.header div.logo div.logo-icon img {
+  width: 35px;
+  display: inline !important;
+}
+
+section.header div.logo span.logo-icon {
+  color: rgb(144, 162, 244);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section.header div.logo div.logo-text {
+  color: #fff;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 34px;
+  padding-bottom: 14px;
+}
+
+section.header div.logo a {
+  text-decoration: none;
+}
+
+section.header div.content {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+section.header .breadcrumb {
+  background-color: #fff !important;
+  margin-bottom: 0;
+  box-shadow: 0 2px 2px 0 rgba(60, 75, 100, 0.14), 0 3px 1px -2px rgba(60, 75, 100, 0.12), 0 1px 5px 0 rgba(60, 75, 100, 0.2);
+}
+
+section.header .breadcrumb-item {
+  color: #8a93a2 !important;
+  font-size: 14px !important;
+  font-weight: 300;
+}
+
+section.header .breadcrumb-item.active {
+  color: #8a93a2 !important;
+}
+
+section.header section.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 250px;
+  width: 100%;
+  z-index: 10;
+  font-weight: 300;
+  color: rgba(0, 0, 21, 0.5);
+  background-color: #fff;
+  font-size: 14px;
+}
+
+section.header section.header-top i {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #9f9f9f;
+  cursor: pointer;
+}
+
+section.header section.header-top div.top-links {
+  padding: 20px;
+  border-bottom: 1px solid #d6d9de;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.header section.header-top div.top-links div.header-right-block {
+  color: #2a354f;
+  font-weight: bold;
+}
+
+section.header section.header-top div.top-links div.header-right-block i {
+  color: #b9b9b9;
+  font-size: 18px;
+}
+
+section.header section.left-sidebar {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background-color: rgb(64, 57, 151);
+  color: #fff;
+  width: 250px;
+  height: 100%;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+section.header section.left-sidebar div.title {
+  background-color: rgba(0, 0, 30, 0.2);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+section.header section.left-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 10px;
+}
+
+section.header section.left-sidebar ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px 25px;
+  margin: 10px 0;
+}
+
+section.header section.left-sidebar ul li a:hover {
+  color: #fff !important;
+  background-color: rgb(52, 49, 116);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+section.header section.left-sidebar ul li i {
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+section.header section.left-sidebar:hover {
+  overflow-y: scroll;
+}
+
+section.header h1.page-title {
+  font-size: 22px;
+  font-family: "Bree Serif", sans-serif;
+  font-weight: 400;
+  margin: 20px 10px;
+}
+
+ul.codeExplain {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul.codeExplain li {
+  padding: 8px 0;
+}
+
+ul.codeExplain span {
+  background-color: rgba(64, 57, 151, 0.1);
+  color: rgb(64, 57, 151);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+section.my-admin {
+  margin-left: 255px;
+}
+
+section.my-admin div.content {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+section.my-admin .breadcrumb {
+  background-color: #fff !important;
+  margin-bottom: 0;
+  box-shadow: 0 2px 2px 0 rgba(60, 75, 100, 0.14), 0 3px 1px -2px rgba(60, 75, 100, 0.12), 0 1px 5px 0 rgba(60, 75, 100, 0.2);
+}
+
+section.my-admin .breadcrumb-item {
+  color: #8a93a2 !important;
+  font-size: 14px !important;
+  font-weight: 300;
+}
+
+section.my-admin .breadcrumb-item.active {
+  color: #8a93a2 !important;
+}
+
+section.my-admin section.admin-header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 255px;
+  width: 100%;
+  z-index: 10;
+  font-weight: 300;
+  color: rgba(0, 0, 21, 0.5);
+  background-color: #fff;
+  font-size: 14px;
+}
+
+section.my-admin section.admin-header-top i {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #9f9f9f;
+  cursor: pointer;
+}
+
+section.my-admin section.admin-header-top div.top-links {
+  padding: 20px;
+  border-bottom: 1px solid #d6d9de;
+}
+
+section.my-admin section.admin-left-sidebar {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background-color: #3d4c66;
+  color: #fff;
+  width: 255px;
+  height: 100%;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+section.my-admin section.admin-left-sidebar div.title {
+  background-color: rgba(0, 0, 30, 0.2);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+section.my-admin section.admin-left-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+section.my-admin section.admin-left-sidebar ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  padding: 15px 25px;
+}
+
+section.my-admin section.admin-left-sidebar ul li a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  background-color: #321fdb;
+}
+
+section.my-admin section.admin-left-sidebar ul li i {
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+section.my-admin section.admin-left-sidebar:hover {
+  overflow-y: scroll;
+}
+
+section.my-admin h1.page-title {
+  font-size: 22px;
+  font-family: "Bree Serif", sans-serif;
+  font-weight: 400;
+  margin: 20px 10px;
+}
+
+div.sliderCheckBox {
+  /* Rounded sliders */
+}
+
+div.sliderCheckBox label {
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+div.sliderCheckBox .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+div.sliderCheckBox .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+div.sliderCheckBox .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+div.sliderCheckBox .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+div.sliderCheckBox input:checked + .slider {
+  background-color: #2196F3;
+}
+
+div.sliderCheckBox input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+div.sliderCheckBox input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+div.sliderCheckBox .slider.round {
+  border-radius: 34px;
+}
+
+div.sliderCheckBox .slider.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin-left: 0;
+  }
+
+  .left-sidebar {
+    display: none;
+  }
+
+  .header-top {
+    padding-left: 0 !important;
+  }
+}
+
