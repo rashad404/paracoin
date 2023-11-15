@@ -34,7 +34,8 @@ class CoinController extends Controller
         $total_addresses = CoinAddress::where('status', 1)->get()->count();
         $total_active_addresses = CoinAddress::where('status', 1)->where('update_time', '>', 0)->get()->count();
 
-        $coinStatsArchiveQuery = CoinStatsArchive::where('id', '>', 0)->pluck('period', 'price')->toArray();
+        $coinStatsArchiveQuery = [];
+        // $coinStatsArchiveQuery = CoinStatsArchive::where('id', '>', 0)->pluck('period', 'price')->toArray();
 
         $coinStatsArchive = ['price' => [], 'period' => []];
         foreach ($coinStatsArchiveQuery as $key => $value) {
