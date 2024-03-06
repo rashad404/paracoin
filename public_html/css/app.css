@@ -126,14 +126,7 @@ section.games-section span.game-time-ht {
 
 section.games-section .blink {
   color: #fff;
-  -webkit-animation: blink 800ms step-end infinite;
   animation: blink 800ms step-end infinite;
-}
-
-@-webkit-keyframes blink {
-  50% {
-    color: red;
-  }
 }
 
 @keyframes blink {
