@@ -261,6 +261,7 @@ class CoinController extends Controller
     }
 
     public function create_address(){
+        return redirect(config('coin.folder').'/');
         $data = Seo::getInstance()->index();
 
         $address = session('address');

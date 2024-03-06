@@ -215,6 +215,9 @@ return [
     'Mobile App' => 'Mobile App',
     'Nodes' => 'Nodes',
     'Crypto Exchange' => 'Crypto Exchange',
+    'Website Builder Integration' => ':coinName will be integrated into Ureb.com',
+    'Soccer Website Integration' => ':coinName will be integrated into Football.biz',
+    'UG Website Integration' => ':coinName will be integrated into UG.news',
 
     // Contact us
     'Contact Information' => 'Contact Information',

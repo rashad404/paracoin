@@ -65,11 +65,9 @@ return [
 
 <p>Yalnız xidmət haqqları çıxılacaq. (epozit, pul çıxarma və s. komissiyaların cüzi olacağınız proqnozlaşdırırıq.)</p>
 
-<p>Hələlik mərkəzləşdirilmiş serverlərdən istifadə edəcəyik. Əgər mənfi cəhətlər müsbət cəhətlərdən üstündürsə, insanlar üçün real fayda yoxdursa, mərkəzləşdirilməmiş sistemdən istifadə etməyin hələ ki mənası yoxdur.</p>
+<p>Hazırda Solana blockchain üzərində fəaliyyət göstərir.</p>
 
 <p>Lakin gələcək üçün biz həmişə yeni texnologiyalara və daha yaxşı həllərə açıq olacağıq.</p>
-
-<p>:coinName nağd pul və kriptovalyutaların üstünlüklərindən istifadə edir. :coinName nağd pul deyil və ya tam kripto deyil. :coinName, yeni növdür.</p>
 
 <h2>Üstünlüklərimiz</h2>
 
@@ -81,16 +79,10 @@ return [
 
 <p>- Minimum enerji istifadəsi</p>
 
-<p>- Tvitlər əsasında qiymət azalıb və ya artmır</p>
-
-<p>- Dövriyyədə olan tədarük, aktiv hesab nömrələri, əməliyyatlar və s. qiyməti müəyyən edəcək.</p>
-
-<p>- Qiyməti manipulyasiya etmək çətin olacaq.</p>
-
 <p>- Real istifadə</p>
 
 <p>- Tətbiq etmək asandır</p>
 
-<p><strong>Tarix: 06.06.2021</strong></p>
+<p><strong>Tarix: 03.06.2024</strong></p>
 "
 ];

@@ -16,13 +16,14 @@
                             </span>
                         </div>
                         <div class="min-w-0 flex flex-col flex-1 pt-1.5 justify-between space-x-4">
-                            <div class="text-indigo-500 font-bold">Q1-Q2 2022</div>
+                            <div class="text-indigo-500 font-bold">Q1-Q2 2024</div>
                             <ul class="list-disc my-3">
                                 <li>@lang('text.:coinName initial website launch', ['coinName' => config('coin.name')])</li>
-                                <li>@lang('text.Payment Gateway Integration')</li>
-                                <li>@lang('text.Developer API')</li>
-                                <li>@lang('text.Money Transfer')</li>
-                                <li>@lang('text.:coinName Checkout for Website/APPs', ['coinName' => config('coin.name')])</li>
+                                <li>@lang('text.Buy :coinName with Cryptocurrencies', ['coinName' => config('coin.name')])</li>
+                                <li>@lang('text.Website Builder Integration', ['coinName' => config('coin.name')])</li>
+                                <li>@lang('text.Soccer Website Integration', ['coinName' => config('coin.name')])</li>
+                                <li>@lang('text.UG Website Integration', ['coinName' => config('coin.name')])</li>
+
                             </ul>
                         </div>
                     </div>
@@ -40,11 +41,11 @@
                             </span>
                         </div>
                         <div class="min-w-0 flex flex-col flex-1 pt-1.5 justify-between space-x-4">
-                            <div class="text-indigo-500 font-bold">Q3-Q4 2022</div>
+                            <div class="text-indigo-500 font-bold">Q3-Q4 2024</div>
                             <ul class="list-disc my-3">
-                                <li>@lang('text.Buy :coinName with Cryptocurrencies', ['coinName' => config('coin.name')])</li>
+                                <li>@lang('text.:coinName Checkout for Website/APPs', ['coinName' => config('coin.name')])</li>
+                                <li>@lang('text.Money Transfer')</li>
                                 <li>@lang('text.Smart Contracts')</li>
-                                <li>@lang('text.Mobile App')</li>
                             </ul>
                         </div>
                     </div>
@@ -62,11 +63,12 @@
                             </span>
                         </div>
                         <div class="min-w-0 flex flex-col flex-1 pt-1.5 justify-between space-x-4">
-                            <div class="text-indigo-500 font-bold">Q1-Q2 2023</div>
+                            <div class="text-indigo-500 font-bold">Q1-Q2 2025</div>
                             <ul class="list-disc my-3">
-                                <li>{{config('coin.name')}} @lang('text.Nodes')</li>
                                 <li>@lang('text.Crypto Exchange')</li>
+                                <li>@lang('text.Developer API')</li>
                                 <li>@lang('text.NFT Marketplace')</li>
+                                <li>@lang('text.Mobile App')</li>
                             </ul>
                         </div>
                     </div>
